@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMO Elevators</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Namo Elevators" style="width: 70px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#product">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                              <li class="nav-item" ><a class="nav-link"  id="enquiry_frm" onclick="openForm()">Enquiry </a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <div class="container-fluid">
+        <div class="hero-section row align-items-center">
+            <!-- Text Column (Left) -->
+            <div class=" hero col-md-5">
+                <h1>NAMO ELEVATORS</h1>
+                <h5>Your Safety Is Our Priority</h5>
+                <p>Govt. CEIG Approved Company</p><br/><br/><br/>
+                <p>Life Installation, Maintenance & Modernization</p>
+                <p>An ISO Certified Company : ISO 9001:2015</p>
+                <p class="contact-info">
+               
+                    <i class="fas fa-phone "></i>
+                    <a href="tel:+918892826060"class="text-light">8892826060</a>
+                    <i class="fab fa-whatsapp"></i>
+                    <a href="tel:+918892826060"class="text-light">8892826060</a>
+                </p>
+
+            </div>
+
+            <!-- Image Slider Column (Right) -->
+            <div class="col-md-7 text-center">
+                <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/commercial-passenger-elevators-250x250.webp" alt="Elevator Image 1"
+                                class="hero-image d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/passenger-elevators-500x500.webp" alt="Elevator Image 2"
+                                class="hero-image d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/2 1.png" alt="Elevator Image 3" class="hero-image d-block w-100">
+                        </div>
+                    </div>
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="contact-sidebar">
+            <div class="contact-item email">
+                <a href="mailto:info@namoelevators.com">
+                    <span>Contact Us</span>
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="contact-item whatsapp">
+                <a href="https://wa.me/+918892826060" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="contact-item phone">
+                <a href="tel:+918892826060">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container mt-5" id="about">
+        <div id="aboutCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 with unique background -->
+                <div class="carousel-item active about-carousel-item"
+                    style="background-image: url('./images/Rectangle\ 245.png');">
+                    <h2 class="services-title mb-4">ABOUT US</h2>
+                    <p>At NAMO, we are dedicated to enhancing urban life by improving the flow of people in and around
+                        buildings,
+                        ensuring their journeys are safe, convenient, and reliable. Our experienced team blends passion
+                        with expertise, allowing NAMO ELEVATORS to deliver comprehensive elevator solutions that meet
+                        industry standards.Our commitment to quality and service excellence has elevated our business,
+                        instilling confidence in our mission. We strive to be the best value partner for our customers,
+                        suppliers, employees, and the community by offering top- notch products and services to
+                        corporate clients.
+                        This alignment of our systems with business objectives enables us to create maximum value for
+                        society.</p>
+                </div>
+
+                <!-- Slide 2 with unique background -->
+                <div class="carousel-item about-carousel-item"
+                    style="background-image: url('./images/Rectangle\ 246.png');">
+                    <h2 class="services-title mb-4">OUR STRENGTH</h2>
+                    <p>At NAMO ELEVATORS, we boast a team of exceptionally talented and qualified engineers, supported
+                        by a skilled workforce with extensive knowledge in electronics, electrical, and mechanical
+                        engineering related to elevators.
+                        We deliver quality services promptly and cost- effectively, enabling our clients to surpass
+                        their business goal</p>
+                </div>
+
+                <!-- Slide 3 with unique background -->
+                <div class="carousel-item about-carousel-item"
+                    style="background-image: url('./images/Rectangle\ 246\ \(1\).png');">
+                    <h2 class="services-title mb-4">OUR VISION</h2>
+                    <p>To achieve the highest quality standards with remarkable efficiency in safety and comfort,
+                        surpassing customer expectations and becoming a global leader in our industry</p>
+                </div>
+            </div>
+
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#aboutCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#aboutCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div class="container services-section" id="services">
+        <h2 class="services-title">OUR SERVICES</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="images/Screenshot_2024-10-19_130451-removebg-preview 2.png" alt="Elevator Image"
+                    class="elevator-image">
+            </div>
+            <div class="col-md-7">
+                <div class="service-item">
+                    <p><strong>Installation</strong> - we install safe, stylish, eco-friendly, energy-saving elevators
+                        in your Residential or Commercial projects that are cost-effective and durable with minimal
+                        maintenance.</p>
+
+                </div>
+                <div class="service-item">
+                    <p>We understand people's needs while making the journey between building safety, convenient &
+                        reliable.</p>
+                </div>
+                <div class="service-item">
+                    <p>Managed by a team of experts with the right blend of professionalism, experience, and exposure.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <p><strong>AMC</strong> - we offer economical plans for Annual Maintenance to ensure safe & smooth
+                        functioning of the elevator at all times.</p>
+                </div>
+                <div class="service-item">
+                    <p><strong>Modernization</strong> - we undertake to install new elevators in place of old and
+                        obsolete ones. Our workflow, from design to dismantling, removes the old elevator and replaces
+                        it with a new, modern one that is quick and obstruction-free.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product" id="product">
+        <h1 class="services-title">PRODUCT</h1>
+        <div class="product_cart">
+            <div class="product_cart1">
+                <img src="images/Subtract.png">
+
+                <div class="product_p">
+                    <p class="one">Home Elevators</p>
+                </div>
+            </div>
+
+            <div class="product_cart1">
+                <img src="images/Subtract (1).png">
+                <p class="two1">Gold Elevators</p>
+                <div class="product_p">
+                    <p class="two">Gold Elevators</p>
+                </div>
+            </div>
+
+            <div class="product_cart1">
+                <img src="images/Subtract (2).png">
+                <p class="three1">Rose Gold Elevators</p>
+                <div class="product_p">
+                    <p class="three">Rose Gold Elevators</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="product_cart">
+            <div class="product_cart1">
+                <img src="images/Subtract (3).png">
+                <p class="four1">Hydraulic Elevators</p>
+                <div class="product_p">
+                    <p class="four">Hydraulic Elevators</p>
+                </div>
+            </div>
+            <div class="product_cart1">
+                <img src="images/Subtract (4).png">
+                <p class="five1">MS Powder Coated</p>
+                <div class="product_p">
+                    <p class="five">MS Powder Coated</p>
+                </div>
+            </div>
+            <div class="product_cart1">
+                <img src="images/Subtract (5).png">
+
+                <p class="six1">Big Vision Glass Door</p>
+
+                <div class="product_p">
+                    <p class="six">Big Vision Glass Door</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container ">
+        <!-- Etched SS & Gold Finish Section -->
+        <div id="etchedCarousel" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner p-5">
+                <h2 class="services-title m-5">ETCHED SS & GOLD FINISH</h2>
+                <div class="carousel-item active">
+                    <img src="images/Screenshot 2024-10-22 142236 1.png" class="d-block w-100" alt="Etched Design 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/product.png" class="d-block w-100" alt="Etched Design 2">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#etchedCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#etchedCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Geared Machine Section -->
+        <h2 class="services-title mt-5">GEARLESS MACHINE</h2>
+        <div id="gearedMachineCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner p-5">
+                <div class="carousel-item active">
+                    <img src="images/Screenshot 2024-10-22 144155.png" class="d-block w-100" alt="Montanari Machine">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Montanari</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Screenshot 2024-10-22 144206 1.png" class="d-block w-100" alt="Sharp Machine">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Sharp Machine</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#gearedMachineCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#gearedMachineCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Car & Landing Operating Panels Section -->
+        <h2 class="services-title mt-5 mb-5 p-5">CAR & LANDING OPERATING PANELS</h2>
+        <div id="panelCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Screenshot 2024-10-22 150811 1.png" class="d-block w-100" alt="Panel 1">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+            <!-- --enquiry----from -->
+
+            <div class="form-main"  id="contactForm">
+                <div class="main-wrapper">
+                  <h2 class="form-head">Enquiry From</h2>
+                  <form class="form-wrapper"  
+                  action="https://formsubmit.co/info@namoelevators.com"  method="POST" onsubmit="showSuccessMessage(event)">
+                    <div class="form-card">
+                      <input
+                        class="form-input"
+                        type="text"
+                        name="full_name"
+                        required="required"
+                      />
+                      <label class="form-label" for="full_name">Full Name</label>
+                    </div>
+            
+                    <div class="form-card">
+                      <input
+                        class="form-input"
+                        type="email"
+                        name="email"
+                        required="required"
+                      />
+                      <label class="form-label" for="email">Email</label>
+                    </div>
+            
+                    <div class="form-card">
+                      <input
+                        class="form-input"
+                        type="number"
+                        name="phone_number"
+                        required="required"
+                      />
+                      <label class="form-label" for="phone_number">Phone number</label>
+                    </div>
+            
+                    <div class="form-card">
+                      <textarea
+                        class="form-textarea"
+                        maxlength="420"
+                        rows="3"
+                        name="phone_number"
+                        required="required"
+                      ></textarea>
+                      <label class="form-textarea-label" for="phone_number"
+                        >Address</label
+                      >
+                    </div>
+                    
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+      
+                    <div class="btn-wrap">
+                      <button> Submit </button>
+                      <button type="button" onclick="closeForm()" style="margin-left: 10px;">Close</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+      
+      
+
+
+    <div class="container mt-5" id="contact">
+        <h2 class="text-center contact-title">CONTACT US</h2>
+        <div class="contact-section row justify-content-center align-items-center">
+            <!-- Office Location -->
+            <div class="col-md-5 text-center text-md-left">
+                <h4 class="contact-heading">OFFICE LOCATION</h4>
+                <p>NAMO ELEVATORS<br>
+                    #4/3, 3rd Floor, Above Biriyani Zest, RB Complex,<br>
+                    Whitefield-Hoskote Main Road, Belthur,<br>
+                    Kadugodi Post, Bangalore - 560067.
+                </p>
+            </div>
+    
+            <!-- Background Image -->
+            <div class="col-md-2 d-none d-md-block">
+                <div class="background-image"></div>
+            </div>
+    
+            <!-- Get In Touch -->
+            <div class="col-md-5 text-center text-md-left">
+                <h4 class="contact-heading">GET IN TOUCH</h4>
+                <p><a href="tel:+918892826060" class="text-decoration-none"><i class="fab fa-whatsapp"></i> +918892826060</a></p>
+                <p><a href="tel:+919986762346" class="text-decoration-none"><i class="fas fa-phone"></i> +919986762346</a></p>
+                <p><a href="mailto:info@namoelevator.com" class="text-decoration-none"><i class="fas fa-envelope"></i> info@namoelevator.com</a></p>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <footer class="p-3 fs-3">
+        <div class="social-icons text-light">
+            <h6 class="text-center" style="color: #000; font-weight: 600;">COPYRIGHT @ 2024 Namo_Elevators. ALL RIGHTS
+                RESERVED. Designed by <a href="https://www.rpinfocare.com/">RP Infocare</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function openForm() {
+          document.getElementById("contactForm").style.display = "flex";
+        }
+    
+        function closeForm() {
+          document.getElementById("contactForm").style.display = "none";
+        }
+      </script>
+    
+    <script>
+      function showSuccessMessage(event) {
+          event.preventDefault();
+    
+          const form = event.target;
+          const successMessage = document.getElementById('success-message');
+    
+          successMessage.textContent = 'Message has been sent successfully!';
+          successMessage.style.display = 'block'; 
+    
+          form.submit(); 
+    
+          form.reset(); 
+    
+          setTimeout(function() {
+              successMessage.style.display = 'none'; 
+              window.location.href = 'index.html'; 
+          }, 5000); 
+      }
+    </script>
+
+
+</body>
+
+</html>
